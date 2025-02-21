@@ -63,8 +63,6 @@ button {
 /* Hero section */
 .hero-container {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
   background: var(--dark-color);
   gap: 200px;
   padding: 75px 200px 125px;
@@ -92,7 +90,7 @@ button {
 }
 
 .hero-right img {
-  box-shadow: 1px 1px 6px rgba(255, 255, 255, 0.6);
+  box-shadow: 3px 3px 10px rgba(255, 255, 255, 0.6);
 }
 
 /* Card section */
@@ -144,7 +142,7 @@ button {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 200px 500px;
+  padding: 150px 500px;
   text-align: left;
 }
 
@@ -154,4 +152,44 @@ button {
 }
 
 /* CTA section */
+.call {
+  background: var(--white-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.call-sm {
+  display: flex;
+  background: var(--blue-color);
+  border-radius: 15px;
+  color: var(--white-color);
+  padding: 52px 100px;
+  margin: 100px;
+}
+
+.call-text {
+  display: flex;
+  flex-direction: column;
+  margin-right: 400px;
+}
+
+.call-text p {
+  font-size: 18px;
+}
+
+button.action {
+  width: 150px;
+  margin-top: 8px;
+  border: 2px solid var(--light-grey-color);
+}
+
 /* Footer */
+.footer {
+  background: var(--dark-color);
+  color: var(--white-color);
+  text-align: center;
+  font-size: 18px;
+  padding: 36px;
+}
