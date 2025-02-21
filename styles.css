@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --dark-color: #1f2937;
+  --white-color: #f9faf8;
+  --light-grey-color: #e5e7eb;
+  --blue-color: #3882f6;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: var(--white-color);
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 24px;
+  background-color: var(--dark-color);
+}
+.header-logo {
+  height: 150px;
+  width: 150px;
+}
+
+.header-logo img {
+  border-radius: 12px;
+  margin-top: 15px;
+}
+
+.header-links a {
+  margin: 0 12px;
+  font-size: 18px;
+}
+
+/* .header-link a:hover {
+ color: blue;
+} */
+
+/* Hero section */
+/* Card section */
+/* Quote section */
+/* CTA section */
+/* Footer */
