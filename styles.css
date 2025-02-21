@@ -113,13 +113,11 @@ button {
   display: flex;
   justify-content: center;
   gap: 52px;
- 
 }
 .info-item {
   display: flex;
   flex-direction: column;
-   max-width: 200px;
- 
+  max-width: 200px;
 }
 .info-item img {
   border: 5px solid var(--blue-color);
@@ -133,5 +131,27 @@ button {
 }
 
 /* Quote section */
+
+.quote {
+  background: var(--light-grey-color);
+  font-size: 36px;
+  font-weight: 200;
+  color: var(--dark-color);
+}
+
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 200px 500px;
+  text-align: left;
+}
+
+.quote-container p.alone {
+  margin-left: 600px;
+  font-weight: 400;
+}
+
 /* CTA section */
 /* Footer */
