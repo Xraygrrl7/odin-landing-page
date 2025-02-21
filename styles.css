@@ -27,13 +27,25 @@ ul {
 img {
   max-width: 100%;
 }
+
+button {
+  background-color: var(--blue-color);
+  color: var(--white-color);
+  padding: 12px 36px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+
 /* Header */
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 8px 24px;
+  padding: 8px 200px;
   background-color: var(--dark-color);
+  
 }
 .header-logo {
   height: 150px;
@@ -50,11 +62,45 @@ img {
   font-size: 18px;
 }
 
-/* .header-link a:hover {
- color: blue;
-} */
+
 
 /* Hero section */
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;  
+  background: var(--dark-color);
+  gap: 200px;
+  padding: 8px 200px;
+}
+
+.hero-left {
+  display: flex;
+  flex-direction: column;
+  
+  
+}
+
+.hero-left h1 {
+  color: var(--white-color);
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.hero-left p {
+  color: var(--light-grey-color);
+  font-size: 18px;
+}
+
+.hero-button {
+ width: 150px;
+ margin-top: 8px;
+}
+
+.hero-right img {
+  box-shadow: 1px 1px 6px  rgba(255, 255, 255, 0.6);
+}
+
 /* Card section */
 /* Quote section */
 /* CTA section */
