@@ -37,7 +37,6 @@ button {
   font-weight: bold;
 }
 
-
 /* Header */
 .header {
   display: flex;
@@ -45,7 +44,6 @@ button {
   align-items: center;
   padding: 8px 200px;
   background-color: var(--dark-color);
-  
 }
 .header-logo {
   height: 150px;
@@ -62,23 +60,19 @@ button {
   font-size: 18px;
 }
 
-
-
 /* Hero section */
 .hero-container {
   display: flex;
   justify-content: space-between;
-  align-items: center;  
+  align-items: center;
   background: var(--dark-color);
   gap: 200px;
-  padding: 8px 200px;
+  padding: 75px 200px 125px;
 }
 
 .hero-left {
   display: flex;
   flex-direction: column;
-  
-  
 }
 
 .hero-left h1 {
@@ -93,15 +87,51 @@ button {
 }
 
 .hero-button {
- width: 150px;
- margin-top: 8px;
+  width: 150px;
+  margin-top: 8px;
 }
 
 .hero-right img {
-  box-shadow: 1px 1px 6px  rgba(255, 255, 255, 0.6);
+  box-shadow: 1px 1px 6px rgba(255, 255, 255, 0.6);
 }
 
 /* Card section */
+.info {
+  padding: 50px 100px 100px;
+  background: var(--white-color);
+}
+
+.info-title {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 900;
+  color: var(--dark-color);
+  margin-bottom: 16px;
+}
+
+.info-container {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+ 
+}
+.info-item {
+  display: flex;
+  flex-direction: column;
+   max-width: 200px;
+ 
+}
+.info-item img {
+  border: 5px solid var(--blue-color);
+  border-radius: 20px;
+  margin-bottom: 8px;
+}
+
+.info-text {
+  text-align: center;
+  color: #4b5563;
+}
+
 /* Quote section */
 /* CTA section */
 /* Footer */
